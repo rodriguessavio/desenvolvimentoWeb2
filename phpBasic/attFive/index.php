@@ -20,18 +20,8 @@
 
         echo "<p>Número Digitado: $value</p>";
 
-        echo "<p>Números Sorteados:</p>";
+        echo "<p>Número Sorteado: $sorteado</p>";
 
-
-        foreach ($valores as $numeroSorteado) {
-            echo $numeroSorteado . " ";
-        }
-
-        
-        
-        // foreach ($valores as $numeroSorteado) {
-        //     echo $numeroSorteado . " ";
-        // }
         ?>
     </fieldset>
 </form>
