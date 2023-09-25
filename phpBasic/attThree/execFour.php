@@ -1,18 +1,13 @@
 <?php
-    $n = 4;
+    $n = 10;
 
     if ($n >= 2 && $n <= 20) {
         for ($i = 1; $i <= $n; $i++) {
+            echo str_repeat("x", $n - $i);
             for ($j = 1; $j <= $i; $j++) {
                 echo $j;
             }
-            echo "<br>";
-        }
-        for ($i = $n - 1; $i >= 1; $i--) {
-            for ($j = 1; $j <= $i; $j++) {
-                echo $j;
-            }
-            echo "<br>";
+            echo "\n";
         }
     } else {
         echo "Número fora do intervalo permitido.";
