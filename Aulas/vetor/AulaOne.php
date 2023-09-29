@@ -21,6 +21,11 @@
         echo $v;
         echo "<br>";
     }
+
+    
+
+
+
     // dd();
     // utilizado para adicionar uma nova página
     // entre as aspas é só passar o caminho

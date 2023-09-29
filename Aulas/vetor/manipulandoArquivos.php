@@ -12,6 +12,6 @@
     // $arquivo = fopen("arquivo.txt", 'r'); 
     $texto = fread($arquivo1, filesize('arquivo.txt'));
     // fread coloca o arquivo na web, no caso o conteúdo
-
+    
     // tenho que passar o nome do arquivo
 ?>

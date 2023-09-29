@@ -29,9 +29,11 @@
     // }
     $dados = ['a', 'b', 'c', 'd'];
     echo "</br>";
+
     foreach($dados as $d) {
         echo $d;
     }
+    
     echo '</br>';
 
 
