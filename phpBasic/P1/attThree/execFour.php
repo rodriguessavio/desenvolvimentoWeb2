@@ -7,7 +7,7 @@
             for ($j = 1; $j <= $i; $j++) {
                 echo $j;
             }
-            echo "\n";
+            echo "<br>";
         }
     } else {
         echo "Número fora do intervalo permitido.";
