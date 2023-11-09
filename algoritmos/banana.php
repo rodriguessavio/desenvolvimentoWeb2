@@ -3,7 +3,7 @@
     $palavra = 'banana';
 
     
-    echo $palavra[40];
+    echo $palavra[50];
     
 
 ?>
