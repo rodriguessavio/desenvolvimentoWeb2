@@ -1,0 +1,7 @@
+<?php
+
+    $palavra = 'banana';
+
+    
+
+?>

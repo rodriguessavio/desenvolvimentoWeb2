@@ -35,7 +35,8 @@
         $arquivo1 = fopen("dados.txt", 'r');
         $texto = fread($arquivo1, filesize("dados.txt"));
 
-
+        // String -> vetor (explode)
+        // vetor -> string(implode)
 
         $dados = explode('|', $texto);
 

@@ -61,7 +61,8 @@
             <input type="email" name="email" required> <br>
             <label for="cpf">Informe o cpf:</label><br>
             <input type="text" name="cpf" required> <br><br>
-            <input type="submit" name='btn' value='Cadastrar'>
+            <input type="submit" name='btn' value='Cadastrar'> <br> <br>
+            <input type="submit" name='btn' value='Deletar'>
         </form>
     </div>
 
@@ -75,7 +76,7 @@
                     list($nome, $email, $cpf) = explode('|', $line);
                     echo "<li>Nome: $nome, Email: $email, CPF: $cpf</li>";
                 }
-                fclose($file);
+                
             ?>
         </ul>
     </div>

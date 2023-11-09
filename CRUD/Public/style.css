@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.formulario {
+    display: flex;   
+    text-align: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    border: none;
+    background-color: chartreuse;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: .5s linear;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 320px) {
+    
+}

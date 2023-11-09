@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111010;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.links{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    font-size: 24px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #CFCFCF;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+.p1 {
+    margin-top: 292px;
+    font-size: 50px;
+    text-justify:auto;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.sobre-mim {
+    margin-left: 95px;
+    margin-top: 149px;
+    margin-right: 23px;
+    display: flex;
+
+}
+
+.sobre-mimCont {
+    margin-left: 41px;
+    font-size: 27px;
+    text-align: justify;
+}
+
+.sobre-mimCont h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aba-tecnologias {
+    margin-top: 147px;
+    margin-left: 95px;
+}
+
+.aba-tecnologias h3{
+    text-align: center;
+    font-size: 27px ;
+}
+
+.tecnologias {
+    margin-top: 157px;
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+
+.tecnologias p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aba-contatos {
+    margin-top: 147px;
+}
+
+.aba-contatos h3 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.aba-contatos a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    gap: 370px;
+    margin-top: 157px;
+}
+
+.contatos a {
+    color: #CFCFCF;
+}
+
+.contatos a:hover{
+    color: #fff;
+}
+
+.img-ytb:hover {
+    fill: red;
+}

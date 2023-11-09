@@ -21,6 +21,11 @@ class Controller {
     function getPersons() {
         return $this->persons;
     }
+
+    function delete() {
+        
+    }
+
 }
 ?>
 
