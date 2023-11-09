@@ -2,6 +2,6 @@
 
     $palavra = 'banana';
 
-    
+    for
 
 ?>
