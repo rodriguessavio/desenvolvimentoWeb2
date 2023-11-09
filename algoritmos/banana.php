@@ -3,7 +3,7 @@
     $palavra = 'banana';
 
     
-    echo $palavra[3];
+    echo $palavra[40];
     
 
 ?>
