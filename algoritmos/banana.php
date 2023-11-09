@@ -2,6 +2,8 @@
 
     $palavra = 'banana';
 
-    for
+    
+    echo $palavra[1];
+    
 
 ?>
