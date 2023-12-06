@@ -43,12 +43,6 @@
         header('location: Cliente.php');
     }
 
-    // if(isset($code)) {
-    //     $dados->remove($code);
-    //     header('location: Cliente.php');
-    // }
-
-
 
     echo "<table style='border: 1px solid black;'>";
         foreach($d as $r) {
@@ -66,14 +60,17 @@
                 echo "</td>";
 
                 echo "<td>";
-                echo '<a href="?' . $code = $r['id'] . '"><img src="../Public/img/att.svg" alt=""></a>';
+                echo '<a href="?' . $code = $r['id']. '"><img src="../Public/img/att.svg" alt=""></a>';
 
-                echo '<a href="?' . $code = $r['id'] . '"><img src="../Public/img/trash.svg" alt=""></a>';
+                echo '<a href="?' . $r['id'] . '"><img src="../Public/img/trash.svg" alt=""></a>';
                 echo "</td>";
 
             echo "<tr>";
         }
     echo "</table>";
+    echo "<br>";
+    
+    echo "";
 
 ?>
 
